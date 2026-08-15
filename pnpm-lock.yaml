@@ -18,8 +18,8 @@ dependencies:
     specifier: ^4.0.0-alpha.57
     version: 4.0.0-alpha.61(@material-ui/core@4.12.4)(@types/react@17.0.53)(react-dom@17.0.1)(react@17.0.1)
   axios:
-    specifier: ^1.12.0
-    version: 1.12.0
+    specifier: ^1.15.0
+    version: 1.15.0
   contentful:
     specifier: ^9.1.5
     version: 9.2.18
@@ -1168,12 +1168,12 @@ packages:
       - debug
     dev: false
 
-  /axios@1.12.0:
-    resolution: {integrity: sha512-oXTDccv8PcfjZmPGlWsPSwtOJCZ/b6W5jAMCNcfwJbCzDckwG0jrYJFaWH1yvivfCXjVzV/SPDEhMB3Q+DSurg==}
+  /axios@1.15.0:
+    resolution: {integrity: sha512-wWyJDlAatxk30ZJer+GeCWS209sA42X+N5jU2jy6oHTp7ufw8uzUTVFBX9+wTfAlhiJXGS0Bq7X6efruWjuK9Q==}
     dependencies:
       follow-redirects: 1.15.11
       form-data: 4.0.5
-      proxy-from-env: 1.1.0
+      proxy-from-env: 2.1.0
     transitivePeerDependencies:
       - debug
     dev: false
@@ -2034,8 +2034,9 @@ packages:
       long: 5.3.2
     dev: false
 
-  /proxy-from-env@1.1.0:
-    resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
+  /proxy-from-env@2.1.0:
+    resolution: {integrity: sha512-cJ+oHTW1VAEa8cJslgmUZrc+sjRKgAKl3Zyse6+PV38hZe/V6Z14TbCuXcan9F9ghlz4QrFr2c92TNF82UkYHA==}
+    engines: {node: '>=10'}
     dev: false
 
   /pump@3.0.0:
